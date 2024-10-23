@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(197, 135, 187);
+}
+h1{
+    color: rgb(87, 36, 65);
+    text-align: center;
+    font-size: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: -80px;
+    left: 30%;
+
+
+}
+h2{
+    color: rgb(134, 33, 126);
+    text-align: center;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 90px;
+    left: 35%;
+}
+.flopito{
+    animation: bate 2s infinite;
+    position: relative;
+    top: 220px;
+    left: 26%;
+}
+@keyframes bate {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+
+}
